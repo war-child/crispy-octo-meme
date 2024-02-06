@@ -3,6 +3,46 @@ body {
   font-size: 16px;
 }
 
+.view-current-time {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 30px solid black;
+  padding-bottom: 20px;
+}
+
+#clearDay {
+  background: #bf8784;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 8px;
+  border-radius: 12px
+}
+
+.saveBtn .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.saveBtn:hover .tooltiptext {
+  visibility: visible;
+}
+
+
 textarea {
   background: transparent;
   border: none;
@@ -17,10 +57,13 @@ textarea {
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
+
+  white-space: pre-wrap;
   border-top: 1px solid white;
 }
 
