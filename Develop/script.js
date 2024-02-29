@@ -65,7 +65,7 @@ $(document).ready(function () {
  
   $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
-  // 
+  
   $("#clearDay").on("click", function () {
     localStorage.clear();
     location.reload();
